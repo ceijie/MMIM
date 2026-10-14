@@ -5,204 +5,255 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Messiah Mission Int'l. Ministries</title>
 
-<link href="https://fonts.googleapismily=Poppins:wght@300;400;600;700&display=swap
+https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap
 
 <style>
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
-background:#fafafa;
-color:#222;
+    background:#f5f7fa;
+    color:#333;
 }
 
 .hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-url("https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=1600&q=80");
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:white;
-padding:20px;
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1519491050282-cf00c82424b4?q=80&w=1600&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+    padding:20px;
 }
 
-.hero h1{
-font-size:4rem;
-margin-bottom:15px;
+.hero-content h1{
+    font-size:4rem;
+    margin-bottom:15px;
 }
 
-.hero p{
-font-size:1.2rem;
-max-width:700px;
-margin:auto;
+.hero-content p{
+    font-size:1.2rem;
+    max-width:700px;
+    margin:auto;
 }
 
 .btn{
-display:inline-block;
-margin-top:25px;
-padding:14px 28px;
-background:#d4af37;
-color:white;
-text-decoration:none;
-border-radius:50px;
-font-weight:600;
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 30px;
+    background:#d4af37;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#be9726;
 }
 
 section{
-padding:80px 10%;
+    padding:80px 10%;
 }
 
-h2{
-text-align:center;
-margin-bottom:20px;
-font-size:2.3rem;
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    font-size:2.5rem;
+    color:#0d3b66;
 }
 
 .about{
-max-width:900px;
-margin:auto;
-text-align:center;
-line-height:1.8;
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
 }
 
 .cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
 }
 
 .card{
-background:white;
-padding:25px;
-border-radius:18px;
-box-shadow:0 5px 20px rgba(0,0,0,.08);
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
 }
 
 .schedule{
-background:#101820;
-color:white;
-text-align:center;
+    background:#0d3b66;
+    color:white;
+    text-align:center;
 }
 
 .schedule p{
-font-size:1.1rem;
-margin:10px 0;
+    margin:10px 0;
+    font-size:1.1rem;
 }
 
 .social{
-text-align:center;
+    text-align:center;
 }
 
 .social a{
-display:inline-block;
-margin:10px;
-padding:12px 28px;
-border-radius:50px;
-text-decoration:none;
-color:white;
+    display:inline-block;
+    margin:10px;
+    padding:14px 28px;
+    border-radius:50px;
+    color:white;
+    text-decoration:none;
+    font-weight:600;
 }
 
-.fb{
-background:#1877F2;
+.facebook{
+    background:#1877f2;
 }
 
-.yt{
-background:#FF0000;
+.youtube{
+    background:#ff0000;
 }
 
 footer{
-background:#0d1117;
-color:#fff;
-text-align:center;
-padding:20px;
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:2.5rem;
+}
+
+.hero-content p{
+    font-size:1rem;
+}
 }
 </style>
 </head>
+
 <body>
 
 <section class="hero">
-<div>
-<h1>Messiah Mission Int'l. Ministries</h1>
-<p>
-Leading people into a growing relationship with Jesus Christ through worship,
-discipleship, fellowship, and service.
-</p>
+    <div class="hero-content">
+        <h1>Messiah Mission Int'l. Ministries</h1>
 
-<a href="https://www.facebook.com/mmimchurch" class="btn">
-Visit Our Facebook Page
-</a>
-</div>
+        <p>
+            Sharing God's love, building disciples, and reaching the world with the Gospel of Jesus Christ.
+        </p>
+
+        <a href="https://www.facebook.com/mmimchurch" target="_blank" class="btn">
+            Visit Our Facebook Page
+        </a>
+    </div>
 </section>
 
 <section>
-<h2>About MMIM</h2>
+    <div class="section-title">
+        <h2>About MMIM</h2>
+    </div>
 
-<div class="about">
-<p>
-We are a Christ-centered church community dedicated
-to sharing God's love, teaching His Word, and helping people
-grow in faith. Everyone is welcome to worship, learn, and serve with us.
-</p>
-</div>
+    <div class="about">
+        <p>
+            MMIM is a Bible-believing church committed to worship, discipleship,
+            prayer, fellowship, and sharing the Gospel. We strive to grow
+            together in faith and serve our community with Christ-centered love.
+        </p>
+    </div>
 </section>
 
 <section>
-<h2>Our Ministries</h2>
+    <div class="section-title">
+        <h2>Our Ministries</h2>
+    </div>
 
-<div class="cards">
+    <div class="cards">
+        <div class="card">
+            <h3>Worship Ministry</h3>
+            <p>Leading the congregation in praise and worship.</p>
+        </div>
 
-<div class="card">
-<h3>Worship Ministry</h3>
-<p>Leading the congregation in praise and worship.</p>
-</div>
+        <div class="card">
+            <h3>Youth Ministry</h3>
+            <p>Raising the next generation of Christ-followers.</p>
+        </div>
 
-<div class="card">
-<h3>Youth Ministry</h3>
-<p>Developing the next generation of Christ-followers.</p>
-</div>
-
-<div class="card">
-<h3>Outreach Ministry</h3>
-<p>Serving communities and sharing the Gospel.</p>
-</div>
-
-</div>
+        <div class="card">
+            <h3>Outreach Ministry</h3>
+            <p>Reaching communities through service and evangelism.</p>
+        </div>
+    </div>
 </section>
 
 <section class="schedule">
-<h2>Service Schedule</h2>
+    <div class="section-title">
+        <h2 style="color:white;">Service Schedule</h2>
+    </div>
 
-<p>Sunday Worship Service</p>
-<p>Bible Study & Prayer Meetings</p>
-<p>Youth and Fellowship Gatherings</p>
+    <p>Sunday Worship Service</p>
+    <p>Midweek Bible Study</p>
+    <p>Prayer Meetings</p>
+    <p>Youth Fellowship</p>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>Watch MMIM TV</h2>
+    </div>
+
+    <div style="max-width:900px;margin:auto;">
+        https://www.youtube.com/embed/videoseries?list=UU
+        </iframe>
+    </div>
+
+    <div style="text-align:center;margin-top:25px;">
+        <a href="https://www.youtube.com/@MMIMTV" target="_blank" class="btn">
+            Visit YouTube Channel
+        </a>
+    </div>
 </section>
 
 <section class="social">
-<h2>Connect With Us</h2>
+    <div class="section-title">
+        <h2>Connect With Us</h2>
+    </div>
 
-<a class="fb"
-href="https://www.facebook.com/mmimchurch">
-Facebook
-</a>
+    <a href="https://www.facebook.com/mmimchurch" target="_blank" class="facebook">
+        Facebook
+    </a>
 
-https://www.youtube.com/@MMIMTV
-YouTube
-</a>
-
+    <a href="https://www.youtube.com/@MMIMTV" target="_blank" class="youtube">
+        YouTube
+    </a>
 </section>
 
 <footer>
-© 2026 Messiah Mission Int'l. Ministries
+    © 2026 Messiah Mission Int'l. Ministries | All Rights Reserved
 </footer>
 
 </body>
