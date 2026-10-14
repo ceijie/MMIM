@@ -10,7 +10,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
+    font-family:Arial, sans-serif;
 }
 
 html{
@@ -39,7 +39,7 @@ body{
 
 .hero-content h1{
     font-size:4rem;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 
 .hero-content p{
@@ -50,13 +50,13 @@ body{
 
 .btn{
     display:inline-block;
-    margin-top:25px;
-    padding:14px 30px;
+    margin-top:20px;
+    padding:14px 28px;
     background:#d4af37;
     color:white;
     text-decoration:none;
     border-radius:50px;
-    transition:.3s;
+    font-weight:bold;
 }
 
 .btn:hover{
@@ -73,20 +73,20 @@ section{
 }
 
 .section-title h2{
-    font-size:2.5rem;
     color:#0d3b66;
+    font-size:2.5rem;
 }
 
 .about{
-    text-align:center;
     max-width:900px;
     margin:auto;
+    text-align:center;
     line-height:1.8;
 }
 
 .cards{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:25px;
 }
 
@@ -94,12 +94,13 @@ section{
     background:white;
     padding:30px;
     border-radius:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-    transition:.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    text-align:center;
 }
 
-.card:hover{
-    transform:translateY(-5px);
+.card h3{
+    margin-bottom:15px;
+    color:#0d3b66;
 }
 
 .schedule{
@@ -108,8 +109,12 @@ section{
     text-align:center;
 }
 
+.schedule h2{
+    color:white;
+}
+
 .schedule p{
-    margin:10px 0;
+    margin:12px 0;
     font-size:1.1rem;
 }
 
@@ -122,9 +127,9 @@ section{
     margin:10px;
     padding:14px 28px;
     border-radius:50px;
-    color:white;
     text-decoration:none;
-    font-weight:600;
+    color:white;
+    font-weight:bold;
 }
 
 .facebook{
@@ -145,12 +150,17 @@ footer{
 @media(max-width:768px){
 
 .hero-content h1{
-    font-size:2.5rem;
+    font-size:2.3rem;
 }
 
 .hero-content p{
     font-size:1rem;
 }
+
+section{
+    padding:60px 20px;
+}
+
 }
 </style>
 </head>
@@ -162,39 +172,118 @@ footer{
         <h1>Messiah Mission Int'l. Ministries</h1>
 
         <p>
-            Sharing God's love, building disciples, and reaching the world with the Gospel of Jesus Christ.
+            Sharing God's love, building disciples, and reaching the world
+            with the Gospel of Jesus Christ.
         </p>
 
-        <a href="https://www.facebook.com/mmimchurch" target="_blank" class="btn">
+        <a href="https://www.facebook.com/mmimchurch" class="btn" target="_blank">
             Visit Our Facebook Page
         </a>
     </div>
 </section>
 
 <section>
+
     <div class="section-title">
-        <h2>Our Ministries</h2>
+        <h2>About MMIM</h2>
+    </div>
+
+    <div class="about">
+
+        <p>
+            MMIM is a Bible-believing Christian church committed to worship,
+            discipleship, prayer, evangelism, missions, and serving communities
+            through the love of Jesus Christ.
+        </p>
+
+        <br><br>
+
+        <h3 style="color:#0d3b66;">Our Purpose</h3>
+
+        <p>
+            We exist to <strong>REACH</strong> people for Jesus Christ by
+            <strong>EQUIPPING</strong> the believers, develop their
+            <strong>ABILITIES</strong> in serving the Lord and to
+            <strong>CARE</strong> for one another in order to
+            <strong>HONOR</strong> God's name.
+        </p>
+
+        <br><br>
+
+        <h3 style="color:#0d3b66;">Our Vision</h3>
+
+        <p>
+            To reach the whole Philippines, 10/40 window countries,
+            and the world through intentional evangelism and missions
+            which will result in planting
+            <strong>500 viable congregations by the year 2030.</strong>
+        </p>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h2>Our Locations</h2>
     </div>
 
     <div class="cards">
+
         <div class="card">
-            <h3>Worship Ministry</h3>
-            <p>Leading the congregation in praise and worship.</p>
+            <h3>🏢 Main Office</h3>
+
+            <p>
+                Unit 603, #355 PPI Bldg.<br>
+                EDSA, 1400<br>
+                Caloocan City, Philippines
+            </p>
+
+            <a href="https://share.google/vjuSdFIUp0B4l3LWJ"
+               target="_blank"
+               class="btn">
+                View on Google Maps
+            </a>
         </div>
 
         <div class="card">
-            <h3>Youth Ministry</h3>
-            <p>Raising the next generation of Christ-followers.</p>
+            <h3>📺 Online Church</h3>
+
+            <p>
+                Join worship services, sermons,
+                ministry programs, and livestreams
+                through MMIM TV.
+            </p>
+
+            <a href="https://www.youtube.com/@MMIMTV"
+               target="_blank"
+               class="btn">
+                Watch Online
+            </a>
         </div>
 
         <div class="card">
-            <h3>Outreach Ministry</h3>
-            <p>Reaching communities through service and evangelism.</p>
+            <h3>📘 Facebook Community</h3>
+
+            <p>
+                Stay updated with church announcements,
+                events, testimonies, and ministry activities.
+            </p>
+
+            <a href="https://www.facebook.com/mmimchurch"
+               target="_blank"
+               class="btn">
+                Visit Facebook
+            </a>
         </div>
+
     </div>
+
 </section>
 
 <section class="schedule">
+
     <div class="section-title">
         <h2 style="color:white;">Service Schedule</h2>
     </div>
@@ -203,37 +292,27 @@ footer{
     <p>Midweek Bible Study</p>
     <p>Prayer Meetings</p>
     <p>Youth Fellowship</p>
-</section>
 
-<section>
-    <div class="section-title">
-        <h2>Watch MMIM TV</h2>
-    </div>
-
-    <div style="max-width:900px;margin:auto;">
-        https://www.youtube.com/embed/videoseries?list=UU
-        </iframe>
-    </div>
-
-    <div style="text-align:center;margin-top:25px;">
-        <a href="https://www.youtube.com/@MMIMTV" target="_blank" class="btn">
-            Visit YouTube Channel
-        </a>
-    </div>
 </section>
 
 <section class="social">
+
     <div class="section-title">
         <h2>Connect With Us</h2>
     </div>
 
-    <a href="https://www.facebook.com/mmimchurch" target="_blank" class="facebook">
-        Facebook
+    <a href="https://www.facebook.com/mmimchurch"
+       target="_blank"
+       class="facebook">
+       Facebook
     </a>
 
-    <a href="https://www.youtube.com/@MMIMTV" target="_blank" class="youtube">
-        YouTube
+    <a href="https://www.youtube.com/@MMIMTV"
+       target="_blank"
+       class="youtube">
+       YouTube
     </a>
+
 </section>
 
 <footer>
