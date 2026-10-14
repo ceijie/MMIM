@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Messiah Mission Int'l. Ministries</title>
+
+<link href="https://fonts.googleapismily=Poppins:wght@300;400;600;700&display=swap
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fafafa;
+color:#222;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.2rem;
+max-width:700px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 28px;
+background:#d4af37;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:20px;
+font-size:2.3rem;
+}
+
+.about{
+max-width:900px;
+margin:auto;
+text-align:center;
+line-height:1.8;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.schedule{
+background:#101820;
+color:white;
+text-align:center;
+}
+
+.schedule p{
+font-size:1.1rem;
+margin:10px 0;
+}
+
+.social{
+text-align:center;
+}
+
+.social a{
+display:inline-block;
+margin:10px;
+padding:12px 28px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+}
+
+.fb{
+background:#1877F2;
+}
+
+.yt{
+background:#FF0000;
+}
+
+footer{
+background:#0d1117;
+color:#fff;
+text-align:center;
+padding:20px;
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div>
+<h1>Messiah Mission Int'l. Ministries</h1>
+<p>
+Leading people into a growing relationship with Jesus Christ through worship,
+discipleship, fellowship, and service.
+</p>
+
+<a href="https://www.facebook.com/mmimchurch" class="btn">
+Visit Our Facebook Page
+</a>
+</div>
+</section>
+
+<section>
+<h2>About MMIM</h2>
+
+<div class="about">
+<p>
+We are a Christ-centered church community dedicated
+to sharing God's love, teaching His Word, and helping people
+grow in faith. Everyone is welcome to worship, learn, and serve with us.
+</p>
+</div>
+</section>
+
+<section>
+<h2>Our Ministries</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Worship Ministry</h3>
+<p>Leading the congregation in praise and worship.</p>
+</div>
+
+<div class="card">
+<h3>Youth Ministry</h3>
+<p>Developing the next generation of Christ-followers.</p>
+</div>
+
+<div class="card">
+<h3>Outreach Ministry</h3>
+<p>Serving communities and sharing the Gospel.</p>
+</div>
+
+</div>
+</section>
+
+<section class="schedule">
+<h2>Service Schedule</h2>
+
+<p>Sunday Worship Service</p>
+<p>Bible Study & Prayer Meetings</p>
+<p>Youth and Fellowship Gatherings</p>
+</section>
+
+<section class="social">
+<h2>Connect With Us</h2>
+
+<a class="fb"
+href="https://www.facebook.com/mmimchurch">
+Facebook
+</a>
+
+https://www.youtube.com/@MMIMTV
+YouTube
+</a>
+
+</section>
+
+<footer>
+© 2026 Messiah Mission Int'l. Ministries
+</footer>
+
+</body>
+</html>
